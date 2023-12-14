@@ -1,5 +1,5 @@
 {
-  "name": "promises",
+  "name": "asynk-await",
   "version": "1.0.0",
   "description": "---",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/myx777/Promises.git"
+    "url": "git+ssh://git@github.com:myx777/asynk-await.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/myx777/Promises/issues"
+    "url": "https://github.com/myx777/asynk-await/issues"
   },
-  "homepage": "https://github.com/myx777/Promises#readme",
+  "homepage": "https://github.com/myx777/asynk-awaits#readme",
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.6",
