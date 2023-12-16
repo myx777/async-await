@@ -1,15 +1,15 @@
-import read from './reader';
-import json from './parser';
+import readData from './reader';
+import parseData from './parser';
 
+//  реализация загрузки из JSON
 export default class GameSavingLoader {
   static async load() {
     try {
-      const data = await read();
-      const jsonData = await json(data);
+      const data = await readData();
+      const jsonData = await parseData(data);
       return JSON.parse(jsonData);
     } catch (error) {
-      console.error('An error occurred:', error.message);
-      throw error; // Переброс ошибки для дальнейшей обработки
+      throw new Error(`An error occurred: ${error.message}`);
     }
   }
 }
